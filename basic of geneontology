@@ -50,7 +50,18 @@ class Graph:
               break
 
 
-        # Create a queue for BFS
-        queue = []
-
+         for i in self.graph[s1]:
+                print(s1)
+                if visited[i] == False:
+                    queue.append(i)
+                    visited[i] = True
+        if(t==0):
+          print(a, "  is not in the list")  
+     g = Graph() 
+g.addEdge(1, 48308)
+g.addEdge(1, 48301)
+g.addEdge(48308, 6996)
+g.addEdge(6996, 16043)
+g.addEdge(16043, 9981)
+g.addEdge(16043, 71840)
 
