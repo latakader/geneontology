@@ -32,4 +32,13 @@ class Graph:
                 if visited[i] == False:
                     queue.append(i)
                     visited[i] = True
+                    
+                     def BFS1(self, a):
+
+        s1=1
+        visited = [False] * (len(self.graph))
+
+        # Create a queue for BFS
+        queue = []
+
 
