@@ -37,6 +37,18 @@ class Graph:
 
         s1=1
         visited = [False] * (len(self.graph))
+        queue.append(s1)
+        visited[s1] = True
+
+        while queue:
+            t = 0
+            s1 = queue.pop(0)
+
+            if(s1==a):
+              print(a,"  is  in the list")
+              t=1
+              break
+
 
         # Create a queue for BFS
         queue = []
